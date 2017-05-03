@@ -55,5 +55,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   
   // Default task(s).
-  grunt.registerTask('default', ["sass", "browserSync", "imagein" "watch"]);
+  grunt.registerTask('default', ["sass", "browserSync", "imagemin" "watch"]);
 };
